@@ -6,22 +6,16 @@ def check_winner(board=[], pattern=""):
         return True
     elif board[3] + board[4] + board[5] == pattern:
         return True
-
     elif board[6] + board[7] + board[8] == pattern:
         return True
-
     elif board[0] + board[3] + board[6] == pattern:
         return True
-
     elif board[1] + board[4] + board[7] == pattern:
         return True
-
     elif board[2] + board[5] + board[8] == pattern:
         return True
-
     elif board[0] + board[4] + board[8] == pattern:
         return True
-
     elif board[2] + board[4] + board[6] == pattern:
         return True
     else:
